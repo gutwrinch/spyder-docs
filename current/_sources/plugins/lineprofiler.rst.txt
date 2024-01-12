@@ -1,14 +1,6 @@
-:orphan:
-
 ####################
 Spyder Line Profiler
 ####################
-
-.. warning::
-
-   Currently, this plugin is still being ported to Spyder 5, and will likely not yet work or experience serious issues on this version of Spyder.
-   A compatible version will be released soon.
-   Thanks for your patience!
 
 **Spyder-Line-Profiler** is a plugin to run the Python `line profiler`_.
 This package profiles the time that individual lines of code take to execute.
@@ -28,11 +20,11 @@ If you installed Spyder using conda, the best way to obtain Spyder-Line-Profiler
 
 .. code-block:: bash
 
-   conda install spyder-line-profiler -c spyder-ide
+   conda install spyder-line-profiler -c conda-forge
 
 .. important::
 
-   At the moment it is not possible to use this plugin with the Spyder :ref:`standalone_installers_ref` for Windows and macOS.
+   At the moment it is not possible to use this plugin with the Spyder :ref:`install-standalone` for Windows and macOS.
    We're working to add support for them in the future.
 
 Restart Spyder in order to be able to use the plugin.

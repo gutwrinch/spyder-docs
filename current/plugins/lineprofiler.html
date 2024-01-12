@@ -29,6 +29,8 @@
     <link rel="shortcut icon" href="../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Spyder Notebook" href="notebook.html" />
+    <link rel="prev" title="Spyder Plugins" href="index.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="docsearch:language" content="en">
@@ -202,6 +204,12 @@
                   
                     
                         <li class="nav-item sub-nav-item ">
+                            <a href="../panes/outline.html">Outline</a>
+                        </li>
+                    
+                  
+                    
+                        <li class="nav-item sub-nav-item ">
                             <a href="../panes/plots.html">Plots</a>
                         </li>
                     
@@ -236,15 +244,27 @@
         
       
        
-            <li class="nav-item ">
-              
-              <details>
+            <li class="nav-item active">
+                          
+              <details open>
               
                 <summary>
                     Spyder Plugins
                 </summary>
                 <ul class="nav">
                 
+                    
+                        <li class="nav-item sub-nav-item active">
+                            <a href="">Spyder Line Profiler</a>
+                        </li>
+                    
+                  
+                    
+                        <li class="nav-item sub-nav-item ">
+                            <a href="notebook.html">Spyder Notebook</a>
+                        </li>
+                    
+                  
                     
                         <li class="nav-item sub-nav-item ">
                             <a href="terminal.html">Spyder Terminal</a>
@@ -438,6 +458,10 @@
                   Online Help
                 </option>
               
+                <option value="../panes/outline.html">
+                  Outline
+                </option>
+              
                 <option value="../panes/plots.html">
                   Plots
                 </option>
@@ -463,6 +487,14 @@
         
           
             <optgroup label="Spyder Plugins">
+              
+                <option value="">
+                  Spyder Line Profiler
+                </option>
+              
+                <option value="notebook.html">
+                  Spyder Notebook
+                </option>
               
                 <option value="terminal.html">
                   Spyder Terminal
@@ -539,24 +571,18 @@
                 
   <div class="section" id="spyder-line-profiler">
 <h1>Spyder Line Profiler<a class="headerlink" href="#spyder-line-profiler" title="Permalink to this headline">¶</a></h1>
-<div class="alert alert-warning">
-<p class="admonition-title">Warning</p>
-<p>Currently, this plugin is still being ported to Spyder 5, and will likely not yet work or experience serious issues on this version of Spyder.
-A compatible version will be released soon.
-Thanks for your patience!</p>
-</div>
 <p><strong>Spyder-Line-Profiler</strong> is a plugin to run the Python <a class="reference external" href="https://pypi.org/project/line-profiler/">line profiler</a>.
 This package profiles the time that individual lines of code take to execute.</p>
 <img alt="Spyder with the Line Profiler pane open" src="../_images/lineprofiler-overview.png" />
 <div class="section" id="installing-the-line-profiler">
 <h2>Installing the Line Profiler<a class="headerlink" href="#installing-the-line-profiler" title="Permalink to this headline">¶</a></h2>
 <p>If you installed Spyder using conda, the best way to obtain Spyder-Line-Profiler is to run the following command in your terminal (or Anaconda prompt on Windows):</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>install<span class="w"> </span>spyder-line-profiler<span class="w"> </span>-c<span class="w"> </span>spyder-ide
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda<span class="w"> </span>install<span class="w"> </span>spyder-line-profiler<span class="w"> </span>-c<span class="w"> </span>conda-forge
 </pre></div>
 </div>
 <div class="alert alert-primary">
 <p class="admonition-title">Important</p>
-<p>At the moment it is not possible to use this plugin with the Spyder <a class="reference internal" href="../installation.html#standalone-installers-ref"><span class="std std-ref">Standalone installers</span></a> for Windows and macOS.
+<p>At the moment it is not possible to use this plugin with the Spyder <a class="reference internal" href="../installation.html#install-standalone"><span class="std std-ref">Standalone installers</span></a> for Windows and macOS.
 We’re working to add support for them in the future.</p>
 </div>
 <p>Restart Spyder in order to be able to use the plugin.</p>
@@ -592,6 +618,8 @@ The path displayed there is that of the file being profiled.</p>
               
               <div class='prev-next-bottom'>
                 
+    <a class='prev-next-link left-prev' id="prev-next-link prev-link" href="index.html" title="previous page"><span class="fas fa-chevron-left"></span><span class="fas fa-chevron-left"></span> Spyder Plugins</a>
+    <a class='prev-next-link right-next' id="next-link" href="notebook.html" title="next page">Spyder Notebook <span class="fas fa-chevron-right"></span><span class="fas fa-chevron-right"></span></a>
 
               </div>
               
