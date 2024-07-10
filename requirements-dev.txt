@@ -5,3 +5,4 @@ pre-commit>=2.10.0,<3  # For pre-commit hooks
 sphinx>=3,<4  # Sphinx-Multiversion is not compatible with Sphinx 4
 sphinx-multiversion  # For version selector support
 sphinx-panels  # For dropdowns and other fancy UI elements
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
